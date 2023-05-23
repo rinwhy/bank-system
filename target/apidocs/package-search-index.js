@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.solvd.banking"},{"l":"com.solvd.banking.account"},{"l":"com.solvd.banking.bank"},{"l":"com.solvd.banking.database"},{"l":"com.solvd.banking.exceptions"},{"l":"com.solvd.banking.onlineBanking"},{"l":"com.solvd.banking.user"}]

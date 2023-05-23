@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <!-- Console appender configuration -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <LevelPatternSelector>
+                    <PatternMatch key="FATAL" pattern="%highlight{[%p] %d{HH:mm:ss} %c:%L %m}{bright,red}%n"/>
+                    <PatternMatch key="ERROR" pattern="%highlight{[%p] %d{HH:mm:ss} %c:%L %m}{bright,red}%n"/>
+                    <PatternMatch key="WARN" pattern="%highlight{[%p] %d{HH:mm:ss} %c:%L %m}{bright,yellow}%n"/>
+                    <PatternMatch key="INFO" pattern="%m"/>
+                    <PatternMatch key="DEBUG" pattern="[%p] %d{HH:mm:ss} %c:%L %m%n"/>
+                    <PatternMatch key="TRACE" pattern="[%p] %d{HH:mm:ss} %c:%L %m%n"/>
+                </LevelPatternSelector>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="trace" additivity="false">
+            <AppenderRef ref="console"/>
+        </Root>
+    </Loggers>
+</Configuration>

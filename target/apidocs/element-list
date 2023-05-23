@@ -1,0 +1,7 @@
+com.solvd.banking
+com.solvd.banking.account
+com.solvd.banking.bank
+com.solvd.banking.database
+com.solvd.banking.exceptions
+com.solvd.banking.onlineBanking
+com.solvd.banking.user
